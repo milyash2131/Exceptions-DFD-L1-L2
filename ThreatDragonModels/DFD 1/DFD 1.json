@@ -1118,8 +1118,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 608
+              "x": 700,
+              "y": 590
             },
             "size": {
               "width": 110,
@@ -1534,8 +1534,8 @@
             ],
             "id": "9e0fa728-0bb2-4164-97a2-96a75783e402",
             "source": {
-              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
-              "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
+              "cell": "04465d09-9bfc-4078-9879-cd28de07a12b",
+              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
             },
             "target": {
               "cell": "432dda48-520d-4904-b978-b2c54c243916",
@@ -1543,8 +1543,8 @@
             },
             "vertices": [
               {
-                "x": 895,
-                "y": 700
+                "x": 810,
+                "y": 770
               }
             ]
           },
@@ -1590,13 +1590,13 @@
               "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
             },
             "target": {
-              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
-              "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
+              "cell": "04465d09-9bfc-4078-9879-cd28de07a12b",
+              "port": "45832268-1019-4c62-a37a-f1792913dd63"
             },
             "vertices": [
               {
-                "x": 980,
-                "y": 740
+                "x": 895,
+                "y": 700
               }
             ]
           },
@@ -1842,8 +1842,8 @@
           },
           {
             "position": {
-              "x": 470.5,
-              "y": 790
+              "x": 600,
+              "y": 805
             },
             "size": {
               "width": 110,
@@ -2501,6 +2501,126 @@
                 "y": 510
               }
             ]
+          },
+          {
+            "position": {
+              "x": 359.25,
+              "y": 790
+            },
+            "size": {
+              "width": 110,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "H. Expiration/\nRenewal"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+                },
+                {
+                  "group": "right",
+                  "id": "45832268-1019-4c62-a37a-f1792913dd63"
+                },
+                {
+                  "group": "bottom",
+                  "id": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
+                },
+                {
+                  "group": "left",
+                  "id": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
+                }
+              ]
+            },
+            "id": "2a431e0c-2c77-4330-aa0b-90415096abb0",
+            "data": {
+              "type": "tm.Process",
+              "name": "H. Expiration/\nRenewal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 22
           }
         ]
       }

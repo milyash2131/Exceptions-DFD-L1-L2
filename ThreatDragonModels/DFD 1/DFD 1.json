@@ -47,6 +47,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -130,7 +131,6 @@
               ]
             },
             "id": "a23e0492-cc41-485c-be12-76bf45410a0b",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "System Admin\n/CISO/\nNetwork Engineer",
@@ -164,6 +164,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -247,7 +248,6 @@
               ]
             },
             "id": "36728d97-1160-4980-9db8-f08b8208f397",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Tools Team\nAnalyst",
@@ -262,8 +262,8 @@
           },
           {
             "position": {
-              "x": 150,
-              "y": 280
+              "x": 610,
+              "y": 130
             },
             "size": {
               "width": 120,
@@ -284,6 +284,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -367,7 +368,6 @@
               ]
             },
             "id": "544355ac-6eb1-4921-a88c-fc2240506c82",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Qualys Policy\nCompliance (PC)",
@@ -408,6 +408,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -491,7 +492,6 @@
               ]
             },
             "id": "239603bb-fbc2-4032-a16a-8c2bc26bfaf7",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Qualys VMDR",
@@ -532,6 +532,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -615,7 +616,6 @@
               ]
             },
             "id": "0b1f07ec-27ab-4ca7-bb47-020539c7b6f9",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "CSAM\nAsset Inventory",
@@ -656,6 +656,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -739,7 +740,6 @@
               ]
             },
             "id": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "ServiceNow \nTicketing",
@@ -777,6 +777,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -860,7 +861,6 @@
               ]
             },
             "id": "07132923-8995-4f5c-97c1-32914bbc790f",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "A. Detect \nMisconfiguration\n (CID Or QID)",
@@ -897,6 +897,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -980,7 +981,6 @@
               ]
             },
             "id": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "B. ServiceNow \nException \nTicket Intake",
@@ -1017,6 +1017,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1100,7 +1101,6 @@
               ]
             },
             "id": "a389a47a-120b-4d35-87d2-a8b50b543b93",
-            "zIndex": 9,
             "data": {
               "type": "tm.Process",
               "name": "C. Gather \nEvidence & \nContext",
@@ -1137,6 +1137,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1220,7 +1221,6 @@
               ]
             },
             "id": "04465d09-9bfc-4078-9879-cd28de07a12b",
-            "zIndex": 10,
             "data": {
               "type": "tm.Process",
               "name": "D. Create CID \nCompliance \nException",
@@ -1257,6 +1257,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1340,7 +1341,6 @@
               ]
             },
             "id": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "E. Create QID \nVMDR \nException",
@@ -1377,6 +1377,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1460,7 +1461,6 @@
               ]
             },
             "id": "432dda48-520d-4904-b978-b2c54c243916",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "F. Review & \nApproval",
@@ -1497,6 +1497,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1593,8 +1594,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -1617,6 +1617,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1713,8 +1714,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "shape": "flow",
@@ -1758,8 +1758,8 @@
               "y": 160
             },
             "target": {
-              "x": 210,
-              "y": 230
+              "cell": "07132923-8995-4f5c-97c1-32914bbc790f",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
             },
             "vertices": [
               {

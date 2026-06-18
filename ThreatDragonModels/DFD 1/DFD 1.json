@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "L1 DFD Diagram",
+        "title": "New STRIDE diagram",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -28,8 +28,8 @@
         "cells": [
           {
             "position": {
-              "x": 160,
-              "y": 100
+              "x": 220,
+              "y": 120
             },
             "size": {
               "width": 120,
@@ -510,8 +510,8 @@
           },
           {
             "position": {
-              "x": 450,
-              "y": 280
+              "x": 580,
+              "y": 305
             },
             "size": {
               "width": 120,
@@ -634,8 +634,8 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 280
+              "x": 10,
+              "y": 650
             },
             "size": {
               "width": 120,
@@ -758,8 +758,8 @@
           },
           {
             "position": {
-              "x": 30,
-              "y": 230
+              "x": 210,
+              "y": 355
             },
             "size": {
               "width": 110,
@@ -878,8 +878,8 @@
           },
           {
             "position": {
-              "x": 320,
-              "y": 443
+              "x": 450,
+              "y": 365
             },
             "size": {
               "width": 130,
@@ -998,8 +998,8 @@
           },
           {
             "position": {
-              "x": 471,
-              "y": 413
+              "x": 615,
+              "y": 430
             },
             "size": {
               "width": 110,
@@ -1118,8 +1118,8 @@
           },
           {
             "position": {
-              "x": 165,
-              "y": 553
+              "x": 545,
+              "y": 620
             },
             "size": {
               "width": 110,
@@ -1256,7 +1256,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Exception \nNeeded",
+              "name": "Report \nIssue/Exception \nNeeded",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1270,7 +1270,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Exception \nNeeded"
+              "Report \nIssue/Exception \nNeeded"
             ],
             "id": "9a1ce55a-9c34-404e-9b82-9b280a87a130",
             "source": {
@@ -1280,12 +1280,18 @@
             "target": {
               "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
               "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-            }
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 390
+              }
+            ]
           },
           {
             "position": {
-              "x": 321.9999999999999,
-              "y": 553
+              "x": 500,
+              "y": 728
             },
             "size": {
               "width": 110,
@@ -1404,8 +1410,8 @@
           },
           {
             "position": {
-              "x": 470.5,
-              "y": 548
+              "x": 670.5,
+              "y": 580
             },
             "size": {
               "width": 110,
@@ -1524,8 +1530,8 @@
           },
           {
             "position": {
-              "x": 155,
-              "y": 695
+              "x": 570,
+              "y": 728
             },
             "size": {
               "width": 110,
@@ -1644,8 +1650,8 @@
           },
           {
             "position": {
-              "x": 321.9999999999999,
-              "y": 695
+              "x": 70,
+              "y": 540
             },
             "size": {
               "width": 110,
@@ -1800,17 +1806,21 @@
             ],
             "id": "1a8cc0bb-0f0b-46d3-9526-8a77aff45511",
             "source": {
-              "x": 220,
-              "y": 160
+              "cell": "a23e0492-cc41-485c-be12-76bf45410a0b",
+              "port": "822867cd-1d3f-4a72-bc1e-cb651c6ed64e"
             },
             "target": {
-              "x": 270,
-              "y": 240
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
             },
             "vertices": [
               {
-                "x": 220,
-                "y": 210
+                "x": 310,
+                "y": 230
+              },
+              {
+                "x": 360,
+                "y": 270
               }
             ]
           },
@@ -1850,21 +1860,15 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "9bb2bedd-3b08-46c7-99cf-c1d233691f70",
+            "id": "b7c4d518-e28c-4570-8578-d40589d8b9b4",
             "source": {
-              "x": 180,
-              "y": 310
+              "cell": "a23e0492-cc41-485c-be12-76bf45410a0b",
+              "port": "874186c5-a8fe-4168-aedc-0fa72f761841"
             },
             "target": {
-              "x": 380,
-              "y": 368
-            },
-            "vertices": [
-              {
-                "x": 260,
-                "y": 310
-              }
-            ]
+              "cell": "a29c93da-97b2-467c-990d-c65e196aaa1e",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            }
           }
         ]
       }

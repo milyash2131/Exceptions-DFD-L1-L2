@@ -1715,6 +1715,58 @@
               "threats": []
             },
             "zIndex": 14
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "1a8cc0bb-0f0b-46d3-9526-8a77aff45511",
+            "source": {
+              "x": 220,
+              "y": 160
+            },
+            "target": {
+              "x": 210,
+              "y": 230
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 210
+              }
+            ]
           }
         ]
       }

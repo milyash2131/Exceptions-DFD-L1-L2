@@ -1672,58 +1672,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Renewal/\nClose Ticket",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Renewal/\nClose Ticket"
-            ],
-            "id": "b4752eed-c712-43a1-8f35-d418ebe98327",
-            "source": {
-              "x": 240,
-              "y": 780
-            },
-            "target": {
-              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
-              "port": "7b70199e-71cc-44f3-b768-084d278d9810"
-            },
-            "vertices": [
-              {
-                "x": 240,
-                "y": 820
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Update QID\nExpiry",
               "description": "",
               "outOfScope": false,
@@ -1813,6 +1761,110 @@
               {
                 "x": 490,
                 "y": 650
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Renewal/\nClose Ticket",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Renewal/\nClose Ticket"
+            ],
+            "id": "b4752eed-c712-43a1-8f35-d418ebe98327",
+            "source": {
+              "cell": "a29c93da-97b2-467c-990d-c65e196aaa1e",
+              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
+            },
+            "target": {
+              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
+              "port": "7b70199e-71cc-44f3-b768-084d278d9810"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 840
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Renewal Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Renewal Request"
+            ],
+            "id": "eacf0be5-e076-4cf0-a1bb-311857a65e96",
+            "source": {
+              "cell": "36728d97-1160-4980-9db8-f08b8208f397",
+              "port": "874186c5-a8fe-4168-aedc-0fa72f761841"
+            },
+            "target": {
+              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
+              "port": "7b70199e-71cc-44f3-b768-084d278d9810"
+            },
+            "vertices": [
+              {
+                "x": 80,
+                "y": 600
               }
             ]
           },
@@ -2178,8 +2230,8 @@
           },
           {
             "position": {
-              "x": 180,
-              "y": 650
+              "x": 170,
+              "y": 645
             },
             "size": {
               "width": 110,
@@ -2842,7 +2894,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Provide \nEvidence/\nExceptions",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2856,12 +2908,12 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Provide \nEvidence/\nExceptions"
             ],
             "id": "36f1dc56-2009-4828-ba05-883483a93f18",
             "source": {
-              "x": 410,
-              "y": 580
+              "cell": "36728d97-1160-4980-9db8-f08b8208f397",
+              "port": "822867cd-1d3f-4a72-bc1e-cb651c6ed64e"
             },
             "target": {
               "cell": "432dda48-520d-4904-b978-b2c54c243916",
@@ -2869,7 +2921,7 @@
             },
             "vertices": [
               {
-                "x": 660,
+                "x": 670,
                 "y": 730
               }
             ]

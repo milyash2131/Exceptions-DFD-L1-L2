@@ -634,8 +634,8 @@
           },
           {
             "position": {
-              "x": 10,
-              "y": 650
+              "x": 120,
+              "y": 885
             },
             "size": {
               "width": 120,
@@ -1653,6 +1653,118 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Renewal/\nClose Ticket",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Renewal/\nClose Ticket"
+            ],
+            "id": "b4752eed-c712-43a1-8f35-d418ebe98327",
+            "source": {
+              "x": 240,
+              "y": 780
+            },
+            "target": {
+              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
+              "port": "7b70199e-71cc-44f3-b768-084d278d9810"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 820
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update QID\nExpiry",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update QID\nExpiry"
+            ],
+            "id": "801bb107-012f-4e45-8696-c3a695322371",
+            "source": {
+              "cell": "a29c93da-97b2-467c-990d-c65e196aaa1e",
+              "port": "45832268-1019-4c62-a37a-f1792913dd63"
+            },
+            "target": {
+              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
+              "port": "45832268-1019-4c62-a37a-f1792913dd63"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 990
+              },
+              {
+                "x": 970,
+                "y": 1030
+              },
+              {
+                "x": 1290,
+                "y": 940
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1095,
               "y": 570
@@ -1894,8 +2006,8 @@
           },
           {
             "position": {
-              "x": 580.5,
-              "y": 830
+              "x": 550.5,
+              "y": 825
             },
             "size": {
               "width": 110,
@@ -2014,8 +2126,8 @@
           },
           {
             "position": {
-              "x": 60,
-              "y": 425
+              "x": 180,
+              "y": 650
             },
             "size": {
               "width": 110,
@@ -2555,126 +2667,6 @@
             ]
           },
           {
-            "position": {
-              "x": 359.25,
-              "y": 790
-            },
-            "size": {
-              "width": 110,
-              "height": 120
-            },
-            "attrs": {
-              "text": {
-                "text": "H. Expiration/\nRenewal"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 22,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-                },
-                {
-                  "group": "right",
-                  "id": "45832268-1019-4c62-a37a-f1792913dd63"
-                },
-                {
-                  "group": "bottom",
-                  "id": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
-                },
-                {
-                  "group": "left",
-                  "id": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
-                }
-              ]
-            },
-            "id": "2a431e0c-2c77-4330-aa0b-90415096abb0",
-            "data": {
-              "type": "tm.Process",
-              "name": "H. Expiration/\nRenewal",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -2746,7 +2738,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Approved \nException",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2760,208 +2752,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Approved \nException"
             ],
             "id": "1f1c524f-3c71-4c6f-8050-4a92a78e4957",
             "source": {
-              "x": 810,
-              "y": 900
+              "cell": "432dda48-520d-4904-b978-b2c54c243916",
+              "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
             },
             "target": {
-              "x": 800,
-              "y": 1015
+              "cell": "38596f62-fd75-4c11-a111-cf3f37d63876",
+              "port": "45832268-1019-4c62-a37a-f1792913dd63"
             },
             "vertices": [
               {
-                "x": 750,
-                "y": 960
+                "x": 740,
+                "y": 930
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ]
       }

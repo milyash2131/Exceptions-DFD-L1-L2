@@ -767,7 +767,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Detect \nMisconfiguration\n (CID Or QID)"
+                "text": "A. Detect \nMisconfiguration\n (CID Or QID)"
               },
               "body": {
                 "stroke": "#333333",
@@ -863,7 +863,7 @@
             "zIndex": 7,
             "data": {
               "type": "tm.Process",
-              "name": "Detect \nMisconfiguration\n (CID Or QID)",
+              "name": "A. Detect \nMisconfiguration\n (CID Or QID)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,

@@ -386,8 +386,8 @@
           },
           {
             "position": {
-              "x": 820,
-              "y": 275
+              "x": 830,
+              "y": 130
             },
             "size": {
               "width": 120,
@@ -511,7 +511,7 @@
           {
             "position": {
               "x": 820,
-              "y": 130
+              "y": 475
             },
             "size": {
               "width": 120,
@@ -998,8 +998,8 @@
           },
           {
             "position": {
-              "x": 720,
-              "y": 435
+              "x": 610,
+              "y": 365
             },
             "size": {
               "width": 110,
@@ -1285,6 +1285,58 @@
               {
                 "x": 470,
                 "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CID \nDetails",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "CID \nDetails"
+            ],
+            "id": "17e8fa4f-2e82-456b-a541-be7c3a41e850",
+            "source": {
+              "cell": "544355ac-6eb1-4921-a88c-fc2240506c82",
+              "port": "3d990076-d21a-4e73-be6b-2cc0961a9db2"
+            },
+            "target": {
+              "cell": "a389a47a-120b-4d35-87d2-a8b50b543b93",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "vertices": [
+              {
+                "x": 665,
+                "y": 270
               }
             ]
           },
@@ -1896,7 +1948,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Ticket \nDetails",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1910,12 +1962,12 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Ticket \nDetails"
             ],
             "id": "5dc31033-fa3e-4c79-b750-3a9233c524b5",
             "source": {
-              "x": 480,
-              "y": 440
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "45832268-1019-4c62-a37a-f1792913dd63"
             },
             "target": {
               "cell": "a389a47a-120b-4d35-87d2-a8b50b543b93",
@@ -1923,10 +1975,57 @@
             },
             "vertices": [
               {
-                "x": 490,
-                "y": 550
+                "x": 580,
+                "y": 410
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "QID Details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "QID Details"
+            ],
+            "id": "2b770128-a161-4885-b0bf-79310a022eb1",
+            "source": {
+              "x": 890,
+              "y": 200
+            },
+            "target": {
+              "cell": "a389a47a-120b-4d35-87d2-a8b50b543b93",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "vertices": []
           }
         ]
       }

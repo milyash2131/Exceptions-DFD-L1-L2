@@ -1516,7 +1516,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "CE \nRecord",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1530,17 +1530,75 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "CE \nRecord"
             ],
             "id": "9e0fa728-0bb2-4164-97a2-96a75783e402",
             "source": {
-              "x": 1193,
-              "y": 668
+              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
+              "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
             },
             "target": {
-              "x": 1293,
-              "y": 768
-            }
+              "cell": "432dda48-520d-4904-b978-b2c54c243916",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "vertices": [
+              {
+                "x": 895,
+                "y": 700
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update CE\n(Approved/\nRejected)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update CE\n(Approved/\nRejected)"
+            ],
+            "id": "601b1e0b-675c-4116-8599-d26797fd1e5f",
+            "source": {
+              "cell": "432dda48-520d-4904-b978-b2c54c243916",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "target": {
+              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
+              "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
+            },
+            "vertices": [
+              {
+                "x": 970,
+                "y": 730
+              }
+            ]
           },
           {
             "position": {
@@ -2296,6 +2354,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2379,7 +2438,6 @@
               ]
             },
             "id": "314566b7-96fa-44b7-9a86-544f46119e54",
-            "zIndex": 20,
             "data": {
               "type": "tm.Actor",
               "name": "Risk & \nCompliance/\nCISO",

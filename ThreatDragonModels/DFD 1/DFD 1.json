@@ -3209,58 +3209,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Report \nIssue/Exception \nNeeded",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Report \nIssue/Exception \nNeeded"
-            ],
-            "id": "9a1ce55a-9c34-404e-9b82-9b280a87a130",
-            "source": {
-              "cell": "07132923-8995-4f5c-97c1-32914bbc790f",
-              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
-            },
-            "target": {
-              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-            },
-            "vertices": [
-              {
-                "x": 470,
-                "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "CID \nDetails",
               "description": "",
               "outOfScope": false,
@@ -3923,17 +3871,59 @@
                 "x": 700,
                 "y": 100
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Report \nIssue/Exception \nNeeded",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Report \nIssue/Exception \nNeeded"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "9a1ce55a-9c34-404e-9b82-9b280a87a130",
+            "source": {
+              "cell": "07132923-8995-4f5c-97c1-32914bbc790f",
+              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
+            },
+            "target": {
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 260
+              }
+            ]
           },
           {
             "position": {

@@ -3863,13 +3863,13 @@
               "port": "eababe34-99dc-41b8-afe1-0e1ff9a14edd"
             },
             "target": {
-              "cell": "a23e0492-cc41-485c-be12-76bf45410a0b",
-              "port": "f8571a25-5816-4e7a-93c7-314d5326a3a0"
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
             },
             "vertices": [
               {
-                "x": 390,
-                "y": 160
+                "x": 440,
+                "y": 210
               }
             ]
           },

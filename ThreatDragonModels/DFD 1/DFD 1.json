@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "7b9501bc-922d-4edb-8eaa-e3fd0a8bd68d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "CSAM",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "9680c3ab-38d1-48c2-b916-08a8c4414b4a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Qualys PC Exception\n(CID Scan Data)",
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "55fa3a47-3ad2-4e74-b505-fba64a3a259a",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Qualys VMDR Exceptions\n(QID Vulnerability Data)",
@@ -389,6 +389,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -472,7 +473,6 @@
               ]
             },
             "id": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Requester\n(System Admin /\nNetwork Engineer /\nPlatform Owner/\nCISO)",
@@ -509,6 +509,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -592,7 +593,6 @@
               ]
             },
             "id": "e4cf94e4-3481-4bbd-b29f-4eff42389527",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Qualys Policy Compliance\n(Scan Finds CIDs)",
@@ -633,6 +633,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -716,7 +717,6 @@
               ]
             },
             "id": "ca17a392-2a48-4435-954c-871e22da208f",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Qualys VMDR\n(Scan Finds QIDs)",
@@ -1085,12 +1085,12 @@
             },
             "vertices": [
               {
-                "x": 820,
-                "y": 450
+                "x": 780,
+                "y": 470
               },
               {
-                "x": 920,
-                "y": 480
+                "x": 910,
+                "y": 500
               }
             ]
           },
@@ -1170,7 +1170,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CID ",
+              "name": "CID Lookup\nResults",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1184,25 +1184,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "CID "
+              "CID Lookup\nResults"
             ],
-            "id": "d67f90fd-89f5-444d-aae8-ccaf41ff121f",
+            "id": "8e9a1895-bbdc-4af4-bec0-d7c5b23001b1",
             "source": {
-              "cell": "9680c3ab-38d1-48c2-b916-08a8c4414b4a",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
+              "x": 1030,
+              "y": 520
             },
             "target": {
-              "cell": "d54265cf-e73c-4d69-b43b-4ecab58558f8",
-              "port": "4eb509db-8859-4e5d-b6df-47d162957598"
+              "x": 690,
+              "y": 400
             },
             "vertices": [
               {
-                "x": 850,
-                "y": 500
-              },
-              {
-                "x": 710,
-                "y": 450
+                "x": 810,
+                "y": 520
               }
             ]
           },
@@ -1224,6 +1220,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1307,7 +1304,6 @@
               ]
             },
             "id": "16e2a398-450d-4835-a6b9-2207c4dc7ff8",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -1341,6 +1337,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1424,7 +1421,6 @@
               ]
             },
             "id": "d54265cf-e73c-4d69-b43b-4ecab58558f8",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "MST Team\n(Validate Ticket \nDetails)",
@@ -1461,6 +1457,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1544,7 +1541,6 @@
               ]
             },
             "id": "e9438ee3-14b9-4200-9895-7e976a292464",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "ISSO Review",
@@ -1578,6 +1574,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1661,7 +1658,6 @@
               ]
             },
             "id": "f8687f1e-1a72-4805-97ef-baa2093b2119",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -1698,6 +1694,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1781,7 +1778,6 @@
               ]
             },
             "id": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Exception \nCreation",
@@ -1821,6 +1817,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1904,7 +1901,6 @@
               ]
             },
             "id": "8512fe64-8f8b-44e1-b009-0082b75b07fb",
-            "zIndex": 17,
             "data": {
               "type": "tm.Store",
               "name": "ServiceNow",

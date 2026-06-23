@@ -3209,58 +3209,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CID \nDetails",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "CID \nDetails"
-            ],
-            "id": "17e8fa4f-2e82-456b-a541-be7c3a41e850",
-            "source": {
-              "cell": "544355ac-6eb1-4921-a88c-fc2240506c82",
-              "port": "3d990076-d21a-4e73-be6b-2cc0961a9db2"
-            },
-            "target": {
-              "cell": "a389a47a-120b-4d35-87d2-a8b50b543b93",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-            },
-            "vertices": [
-              {
-                "x": 860,
-                "y": 290
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Asset Metadata",
               "description": "",
               "outOfScope": false,
@@ -4564,53 +4512,6 @@
                 "y": 380
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 18,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "QID Details",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "QID Details"
-            ],
-            "id": "2b770128-a161-4885-b0bf-79310a022eb1",
-            "source": {
-              "cell": "239603bb-fbc2-4032-a16a-8c2bc26bfaf7",
-              "port": "3d990076-d21a-4e73-be6b-2cc0961a9db2"
-            },
-            "target": {
-              "cell": "a389a47a-120b-4d35-87d2-a8b50b543b93",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",

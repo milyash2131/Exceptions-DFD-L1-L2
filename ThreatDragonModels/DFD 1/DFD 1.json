@@ -1269,7 +1269,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Save ",
+              "name": "Save New Compliance \nException",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1283,7 +1283,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Save "
+              "Save New Compliance \nException"
             ],
             "id": "4120f642-a17e-46c5-9ecd-367ffe51116c",
             "source": {
@@ -1348,7 +1348,7 @@
             },
             "vertices": [
               {
-                "x": 1140,
+                "x": 1080,
                 "y": 620
               },
               {
@@ -1497,6 +1497,58 @@
               "port": "c6802145-3084-4409-af6c-3d85f8872b58"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Renewal\nNeeded",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Renewal\nNeeded"
+            ],
+            "id": "088aac58-dde6-4606-b28b-d4cddebb2361",
+            "source": {
+              "cell": "8512fe64-8f8b-44e1-b009-0082b75b07fb",
+              "port": "1d1cab4a-9edd-4da2-a8a3-1b2114955b0b"
+            },
+            "target": {
+              "cell": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
+              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 530
+              }
+            ]
           },
           {
             "position": {
@@ -1743,7 +1795,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Review \n& Approval"
+                "text": "CISO Review \n& Approval"
               },
               "body": {
                 "stroke": "#333333",
@@ -1839,7 +1891,7 @@
             "id": "f8687f1e-1a72-4805-97ef-baa2093b2119",
             "data": {
               "type": "tm.Process",
-              "name": "Review \n& Approval",
+              "name": "CISO Review \n& Approval",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,

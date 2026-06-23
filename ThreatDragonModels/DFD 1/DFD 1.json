@@ -2211,13 +2211,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -3848,7 +3841,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CID \nDetails",
+              "name": "QID\nMisconfiguration",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3862,21 +3855,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "CID \nDetails"
+              "QID\nMisconfiguration"
             ],
-            "id": "6fc15a58-8681-4ff4-960b-b9b9d9f31b58",
+            "id": "7d21df12-9060-46fa-b6ec-410997869c4f",
             "source": {
-              "cell": "544355ac-6eb1-4921-a88c-fc2240506c82",
+              "cell": "239603bb-fbc2-4032-a16a-8c2bc26bfaf7",
               "port": "7b70199e-71cc-44f3-b768-084d278d9810"
             },
             "target": {
               "cell": "07132923-8995-4f5c-97c1-32914bbc790f",
-              "port": "45832268-1019-4c62-a37a-f1792913dd63"
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
             },
             "vertices": [
               {
-                "x": 700,
-                "y": 100
+                "x": 800,
+                "y": 40
               }
             ]
           },
@@ -3900,7 +3893,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "QID\nDetails",
+              "name": "CID\nMisconfiguration",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3914,11 +3907,11 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "QID\nDetails"
+              "CID\nMisconfiguration"
             ],
-            "id": "7d21df12-9060-46fa-b6ec-410997869c4f",
+            "id": "6fc15a58-8681-4ff4-960b-b9b9d9f31b58",
             "source": {
-              "cell": "239603bb-fbc2-4032-a16a-8c2bc26bfaf7",
+              "cell": "544355ac-6eb1-4921-a88c-fc2240506c82",
               "port": "7b70199e-71cc-44f3-b768-084d278d9810"
             },
             "target": {
@@ -3927,8 +3920,8 @@
             },
             "vertices": [
               {
-                "x": 800,
-                "y": 40
+                "x": 700,
+                "y": 100
               }
             ]
           },

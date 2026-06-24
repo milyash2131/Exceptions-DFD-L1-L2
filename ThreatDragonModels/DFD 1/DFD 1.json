@@ -1222,7 +1222,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Validated Exception\nData",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1236,7 +1236,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Validated Exception\nData"
             ],
             "id": "e214bd11-7380-43ba-aeeb-f845234f6427",
             "source": {
@@ -1424,7 +1424,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Approve Exception",
+              "name": "Approved Exception",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1438,7 +1438,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Approve Exception"
+              "Approved Exception"
             ],
             "id": "e803df57-ec68-4aed-8261-7de0b39c9d14",
             "source": {

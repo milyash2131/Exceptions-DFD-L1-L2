@@ -1265,7 +1265,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "New Exception\nCreated",
+              "name": "New Exception",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1279,7 +1279,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "New Exception\nCreated"
+              "New Exception"
             ],
             "id": "e803df57-ec68-4aed-8261-7de0b39c9d14",
             "source": {

@@ -487,140 +487,16 @@
           },
           {
             "position": {
-              "x": 30,
-              "y": 200
+              "x": 230,
+              "y": 140.00000000000009
             },
             "size": {
-              "width": 120,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "Qualys Policy Compliance\n(Scan Finds CIDs)"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 8,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b0b8225a-6157-49f7-8753-e4cda43b006f"
-                },
-                {
-                  "group": "right",
-                  "id": "9070ecb5-54a9-4c00-8614-918f94bd6f35"
-                },
-                {
-                  "group": "bottom",
-                  "id": "c6802145-3084-4409-af6c-3d85f8872b58"
-                },
-                {
-                  "group": "left",
-                  "id": "1d1cab4a-9edd-4da2-a8a3-1b2114955b0b"
-                }
-              ]
-            },
-            "id": "e4cf94e4-3481-4bbd-b29f-4eff42389527",
-            "data": {
-              "type": "tm.Store",
-              "name": "Qualys Policy Compliance\n(Scan Finds CIDs)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 30,
-              "y": 470
-            },
-            "size": {
-              "width": 120,
+              "width": 180,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "Qualys VMDR\n(Scan Finds QIDs)"
+                "text": "Qualys Scan Systems\n(Scan Finds CIDS & QIDs)"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -719,7 +595,7 @@
             "id": "ca17a392-2a48-4435-954c-871e22da208f",
             "data": {
               "type": "tm.Store",
-              "name": "Qualys VMDR\n(Scan Finds QIDs)",
+              "name": "Qualys Scan Systems\n(Scan Finds CIDS & QIDs)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -732,110 +608,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "List of \nQIDs",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "List of \nQIDs"
-            ],
-            "id": "516f6fc9-6de1-48f5-8a82-f4c48f3c2d41",
-            "source": {
-              "cell": "ca17a392-2a48-4435-954c-871e22da208f",
-              "port": "9070ecb5-54a9-4c00-8614-918f94bd6f35"
-            },
-            "target": {
-              "cell": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-            },
-            "vertices": [
-              {
-                "x": 200,
-                "y": 390
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "List of \nCIDs\n",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "List of \nCIDs\n"
-            ],
-            "id": "82c433d6-7544-4d08-94c8-1b56a48321be",
-            "source": {
-              "cell": "e4cf94e4-3481-4bbd-b29f-4eff42389527",
-              "port": "9070ecb5-54a9-4c00-8614-918f94bd6f35"
-            },
-            "target": {
-              "cell": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-            },
-            "vertices": [
-              {
-                "x": 200,
-                "y": 340
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1269,7 +1041,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Save New CID \nException",
+              "name": "Saves New CID \nException",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1283,7 +1055,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Save New CID \nException"
+              "Saves New CID \nException"
             ],
             "id": "4120f642-a17e-46c5-9ecd-367ffe51116c",
             "source": {
@@ -1296,7 +1068,7 @@
             },
             "vertices": [
               {
-                "x": 1000,
+                "x": 1050,
                 "y": 570
               }
             ]
@@ -1321,7 +1093,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Save New QID\nException",
+              "name": "Saves New QID\nException",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1335,7 +1107,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Save New QID\nException"
+              "Saves New QID\nException"
             ],
             "id": "24e6f1f6-2309-4f3a-97d0-6111de757fc6",
             "source": {
@@ -1352,60 +1124,12 @@
                 "y": 620
               },
               {
+                "x": 1160,
+                "y": 620
+              },
+              {
                 "x": 1280,
                 "y": 570
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Renewal\nNeeded",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Renewal\nNeeded"
-            ],
-            "id": "088aac58-dde6-4606-b28b-d4cddebb2361",
-            "source": {
-              "cell": "8512fe64-8f8b-44e1-b009-0082b75b07fb",
-              "port": "1d1cab4a-9edd-4da2-a8a3-1b2114955b0b"
-            },
-            "target": {
-              "cell": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-            },
-            "vertices": [
-              {
-                "x": 210,
-                "y": 530
               }
             ]
           },
@@ -1601,7 +1325,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "\nUpdate Exception\nExpiration Date",
+              "name": "List of QIDs \n& CIDS",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1615,23 +1339,18 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "\nUpdate Exception\nExpiration Date"
+              "List of QIDs \n& CIDS"
             ],
-            "id": "4b3fa67c-ff30-4d6b-bd10-e8f97ad76e2c",
+            "id": "497a2536-637e-40c6-8f5b-9e33ff583f94",
             "source": {
-              "cell": "1e792bfb-3f51-4e9a-a0c3-4ce90e79e2a4",
-              "port": "b74bc5ce-a85b-432d-a3b9-6a861148c97b"
-            },
-            "target": {
               "cell": "ca17a392-2a48-4435-954c-871e22da208f",
               "port": "c6802145-3084-4409-af6c-3d85f8872b58"
             },
-            "vertices": [
-              {
-                "x": 130,
-                "y": 610
-              }
-            ]
+            "target": {
+              "cell": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
+              "port": "db1e423d-3a6f-4856-8003-b358937b023d"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -2289,6 +2008,58 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "\nUpdate\nExpiration Date",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "\nUpdate\nExpiration Date"
+            ],
+            "id": "4b3fa67c-ff30-4d6b-bd10-e8f97ad76e2c",
+            "source": {
+              "cell": "1e792bfb-3f51-4e9a-a0c3-4ce90e79e2a4",
+              "port": "b74bc5ce-a85b-432d-a3b9-6a861148c97b"
+            },
+            "target": {
+              "cell": "ca17a392-2a48-4435-954c-871e22da208f",
+              "port": "1d1cab4a-9edd-4da2-a8a3-1b2114955b0b"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 420
+              }
+            ]
           }
         ]
       },

@@ -2931,8 +2931,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 250
+              "x": 480,
+              "y": 260
             },
             "size": {
               "width": 130,
@@ -3051,8 +3051,8 @@
           },
           {
             "position": {
-              "x": 750,
-              "y": 380
+              "x": 800,
+              "y": 350
             },
             "size": {
               "width": 110,
@@ -3856,8 +3856,8 @@
             },
             "vertices": [
               {
-                "x": 480,
-                "y": 160
+                "x": 520,
+                "y": 180
               }
             ]
           },
@@ -4358,13 +4358,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {

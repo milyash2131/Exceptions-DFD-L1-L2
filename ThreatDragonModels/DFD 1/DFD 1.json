@@ -4020,8 +4020,8 @@
             },
             "vertices": [
               {
-                "x": 400,
-                "y": 560
+                "x": 380,
+                "y": 570
               }
             ]
           },
@@ -4034,7 +4034,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -4045,13 +4045,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request \nValidation \n& Approval",
+              "name": "Validate \nException \nRequest",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -4059,7 +4059,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Request \nValidation \n& Approval"
+              "Validate \nException \nRequest"
             ],
             "id": "8652b7bc-a241-4515-8c14-48e89042ce59",
             "source": {
@@ -4071,6 +4071,142 @@
               "port": "f6d865ab-5d47-4122-b27d-3fbac19b236c"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "9783e617-50dd-4bcd-8a72-d231127c517b",
+            "source": {
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
+            },
+            "target": {
+              "cell": "8c0e39ec-3377-4957-a361-0e0f1b9dae78",
+              "port": "f6d865ab-5d47-4122-b27d-3fbac19b236c"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -5353,8 +5489,8 @@
           },
           {
             "position": {
-              "x": 260,
-              "y": 410
+              "x": 240,
+              "y": 420
             },
             "size": {
               "width": 170,

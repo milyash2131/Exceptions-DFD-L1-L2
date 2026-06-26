@@ -3047,6 +3047,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -4655,8 +4662,8 @@
               "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
             },
             "target": {
-              "cell": "04465d09-9bfc-4078-9879-cd28de07a12b",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+              "x": 830,
+              "y": 570
             }
           },
           {
@@ -4818,15 +4825,100 @@
               "port": "45832268-1019-4c62-a37a-f1792913dd63"
             },
             "target": {
-              "cell": "f8cc5483-5466-4e4e-8c95-2994dec4c48f",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+              "x": 1020,
+              "y": 540
             },
             "vertices": [
               {
                 "x": 970,
                 "y": 510
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -4983,6 +5075,126 @@
                 "y": 730
               }
             ]
+          },
+          {
+            "position": {
+              "x": 1262,
+              "y": 410.00000000000017
+            },
+            "size": {
+              "width": 110,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Validate Request"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f6d865ab-5d47-4122-b27d-3fbac19b236c"
+                },
+                {
+                  "group": "right",
+                  "id": "f6c718e8-3f0c-47eb-8393-7df6882bc0e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "54a2891e-689f-4ea7-87fb-a7fb1f8e72db"
+                },
+                {
+                  "group": "left",
+                  "id": "42ad27d5-6403-43fd-bbca-476c1e997514"
+                }
+              ]
+            },
+            "id": "a01171e0-865a-4447-a745-b163a34460df",
+            "zIndex": 26,
+            "data": {
+              "type": "tm.Process",
+              "name": "Validate Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ]
       }

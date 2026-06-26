@@ -4251,7 +4251,7 @@
             },
             "attrs": {
               "text": {
-                "text": "F. Active \nException\nPeriod (Tracking)"
+                "text": "G. Active \nException\nPeriod (Tracking)"
               },
               "body": {
                 "stroke": "#333333",
@@ -4347,7 +4347,7 @@
             "id": "432dda48-520d-4904-b978-b2c54c243916",
             "data": {
               "type": "tm.Process",
-              "name": "F. Active \nException\nPeriod (Tracking)",
+              "name": "G. Active \nException\nPeriod (Tracking)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4358,6 +4358,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

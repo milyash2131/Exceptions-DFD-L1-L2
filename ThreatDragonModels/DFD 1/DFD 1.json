@@ -371,15 +371,15 @@
           {
             "position": {
               "x": 240,
-              "y": 310.0000000000001
+              "y": 310.00000000000034
             },
             "size": {
               "width": 160,
-              "height": 100
+              "height": 60
             },
             "attrs": {
               "text": {
-                "text": "Requester\n(System Admin /\nNetwork Engineer /\nPlatform Owner/\nCISO)"
+                "text": "Requester\nReview & Approval"
               },
               "body": {
                 "stroke": "#333333",
@@ -475,7 +475,7 @@
             "id": "6147df51-0a57-4b8d-9bf7-fb38fed5ab53",
             "data": {
               "type": "tm.Actor",
-              "name": "Requester\n(System Admin /\nNetwork Engineer /\nPlatform Owner/\nCISO)",
+              "name": "Requester\nReview & Approval",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1153,118 +1153,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Exception\n Approved",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Exception\n Approved"
-            ],
-            "id": "c4d45046-0cbb-4766-a1aa-f2dac2b7c416",
-            "source": {
-              "cell": "f8687f1e-1a72-4805-97ef-baa2093b2119",
-              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
-            },
-            "target": {
-              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
-              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
-            },
-            "vertices": [
-              {
-                "x": 730,
-                "y": 730
-              },
-              {
-                "x": 730,
-                "y": 610
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Sent For\nReview",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Sent For\nReview"
-            ],
-            "id": "6bbd084e-fd43-4ee8-acec-cf68478e7b46",
-            "source": {
-              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
-              "port": "b496053d-75fe-4d8d-8fec-e118ce649f5b"
-            },
-            "target": {
-              "cell": "f8687f1e-1a72-4805-97ef-baa2093b2119",
-              "port": "b496053d-75fe-4d8d-8fec-e118ce649f5b"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 610
-              },
-              {
-                "x": 540,
-                "y": 740
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "New Exception",
               "description": "",
               "outOfScope": false,
@@ -1471,127 +1359,6 @@
               "privilegeLevel": "",
               "threats": []
             }
-          },
-          {
-            "position": {
-              "x": 585,
-              "y": 725
-            },
-            "size": {
-              "width": 100,
-              "height": 100
-            },
-            "attrs": {
-              "text": {
-                "text": "CISO Review \n& Approval"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 15,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "c4b48072-6b49-4fb1-885d-3f0cab5fa2e0"
-                },
-                {
-                  "group": "right",
-                  "id": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
-                },
-                {
-                  "group": "bottom",
-                  "id": "4eb509db-8859-4e5d-b6df-47d162957598"
-                },
-                {
-                  "group": "left",
-                  "id": "b496053d-75fe-4d8d-8fec-e118ce649f5b"
-                }
-              ]
-            },
-            "id": "f8687f1e-1a72-4805-97ef-baa2093b2119",
-            "data": {
-              "type": "tm.Process",
-              "name": "CISO Review \n& Approval",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            },
-            "children": []
           },
           {
             "position": {

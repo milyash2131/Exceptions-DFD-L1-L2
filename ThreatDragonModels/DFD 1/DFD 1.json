@@ -4263,58 +4263,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Submit INC \n(Exception \nRequest)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Submit INC \n(Exception \nRequest)"
-            ],
-            "id": "1a8cc0bb-0f0b-46d3-9526-8a77aff45511",
-            "source": {
-              "cell": "a23e0492-cc41-485c-be12-76bf45410a0b",
-              "port": "822867cd-1d3f-4a72-bc1e-cb651c6ed64e"
-            },
-            "target": {
-              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
-              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
-            },
-            "vertices": [
-              {
-                "x": 350,
-                "y": 170
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 16,
             "connector": "smooth",
             "data": {
@@ -4789,6 +4737,58 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 29,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submit INC \n(Exception \nRequest)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Submit INC \n(Exception \nRequest)"
+            ],
+            "id": "1a8cc0bb-0f0b-46d3-9526-8a77aff45511",
+            "source": {
+              "cell": "a23e0492-cc41-485c-be12-76bf45410a0b",
+              "port": "f8571a25-5816-4e7a-93c7-314d5326a3a0"
+            },
+            "target": {
+              "cell": "226c7a5c-8c17-468a-a7c9-c96af8b892d8",
+              "port": "b5e02cad-89a7-4c53-aa49-6251d12210f9"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 170
+              }
+            ]
           }
         ]
       }

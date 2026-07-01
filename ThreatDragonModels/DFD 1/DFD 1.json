@@ -1965,8 +1965,8 @@
           },
           {
             "position": {
-              "x": 397.5,
-              "y": 585
+              "x": 447.5,
+              "y": 590
             },
             "size": {
               "width": 112.5,
@@ -2454,8 +2454,8 @@
           },
           {
             "position": {
-              "x": 120,
-              "y": 885
+              "x": 90,
+              "y": 900
             },
             "size": {
               "width": 120,
@@ -3311,60 +3311,8 @@
             },
             "vertices": [
               {
-                "x": 470,
-                "y": 705
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Renewal/\nClose Ticket",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Renewal/\nClose Ticket"
-            ],
-            "id": "b4752eed-c712-43a1-8f35-d418ebe98327",
-            "source": {
-              "cell": "a29c93da-97b2-467c-990d-c65e196aaa1e",
-              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
-            },
-            "target": {
-              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
-              "port": "7b70199e-71cc-44f3-b768-084d278d9810"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 830
+                "x": 590,
+                "y": 750
               }
             ]
           },
@@ -3415,8 +3363,8 @@
             },
             "vertices": [
               {
-                "x": 120,
-                "y": 650
+                "x": 90,
+                "y": 730
               }
             ]
           },
@@ -3888,6 +3836,58 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Renewal/\nClose Ticket",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Renewal/\nClose Ticket"
+            ],
+            "id": "b4752eed-c712-43a1-8f35-d418ebe98327",
+            "source": {
+              "cell": "a29c93da-97b2-467c-990d-c65e196aaa1e",
+              "port": "196e8b32-9098-4300-a53e-dcc83ccbeeea"
+            },
+            "target": {
+              "cell": "ad77e566-bbbf-443e-a701-c7cb330f1d59",
+              "port": "22f9ab4a-bd60-4f8b-b95b-a16338a205fa"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 930
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1095,
               "y": 570
@@ -4129,8 +4129,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 670
+              "x": 370,
+              "y": 740
             },
             "size": {
               "width": 110,
@@ -4294,8 +4294,8 @@
             },
             "vertices": [
               {
-                "x": 110,
-                "y": 360
+                "x": 90,
+                "y": 470
               }
             ]
           },

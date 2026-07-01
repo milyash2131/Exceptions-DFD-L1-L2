@@ -3415,8 +3415,8 @@
             },
             "vertices": [
               {
-                "x": 80,
-                "y": 600
+                "x": 120,
+                "y": 650
               }
             ]
           },
@@ -4129,7 +4129,7 @@
           },
           {
             "position": {
-              "x": 230,
+              "x": 200,
               "y": 670
             },
             "size": {
@@ -4668,6 +4668,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

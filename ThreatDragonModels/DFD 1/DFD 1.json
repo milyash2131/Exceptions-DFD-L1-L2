@@ -136,125 +136,8 @@
           },
           {
             "position": {
-              "x": 1035,
-              "y": 470
-            },
-            "size": {
-              "width": 160,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Qualys PC \n(CID Scan Data)"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 2,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "db1e423d-3a6f-4856-8003-b358937b023d"
-                },
-                {
-                  "group": "right",
-                  "id": "08d1913f-c7d1-4841-8fbe-27438197f434"
-                },
-                {
-                  "group": "bottom",
-                  "id": "b6d8991f-0665-41c4-91bf-d98f3631c0a2"
-                },
-                {
-                  "group": "left",
-                  "id": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-                }
-              ]
-            },
-            "id": "9680c3ab-38d1-48c2-b916-08a8c4414b4a",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Qualys PC \n(CID Scan Data)",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 995,
-              "y": 250.0000000000001
+              "x": 900,
+              "y": 60
             },
             "size": {
               "width": 170,
@@ -784,108 +667,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "QID Lookup",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "QID Lookup"
-            ],
-            "id": "73a5cfec-723e-4762-a31c-42ba94532357",
-            "source": {
-              "x": 691,
-              "y": 360
-            },
-            "target": {
-              "cell": "55fa3a47-3ad2-4e74-b505-fba64a3a259a",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "CID Lookup",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "CID Lookup"
-            ],
-            "id": "85d26cec-cf42-4c32-9c50-9c3e6830cea3",
-            "source": {
-              "x": 691,
-              "y": 380
-            },
-            "target": {
-              "cell": "9680c3ab-38d1-48c2-b916-08a8c4414b4a",
-              "port": "c2c7e53b-8de5-4271-a3fb-5e05a80a8de1"
-            },
-            "vertices": [
-              {
-                "x": 780,
-                "y": 470
-              },
-              {
-                "x": 910,
-                "y": 500
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "QID Lookup\nResults\n",
               "description": "",
               "outOfScope": false,
@@ -942,58 +723,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CID Lookup\nResults",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "CID Lookup\nResults"
-            ],
-            "id": "8e9a1895-bbdc-4af4-bec0-d7c5b23001b1",
-            "source": {
-              "x": 1030,
-              "y": 520
-            },
-            "target": {
-              "x": 690,
-              "y": 400
-            },
-            "vertices": [
-              {
-                "x": 810,
-                "y": 520
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Validated Exception\nData",
               "description": "",
               "outOfScope": false,
@@ -1020,118 +749,6 @@
               "port": "c4b48072-6b49-4fb1-885d-3f0cab5fa2e0"
             },
             "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Saves New CID \nException",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Saves New CID \nException"
-            ],
-            "id": "4120f642-a17e-46c5-9ecd-367ffe51116c",
-            "source": {
-              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
-              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
-            },
-            "target": {
-              "cell": "9680c3ab-38d1-48c2-b916-08a8c4414b4a",
-              "port": "b6d8991f-0665-41c4-91bf-d98f3631c0a2"
-            },
-            "vertices": [
-              {
-                "x": 1050,
-                "y": 570
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Saves New QID\nException",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Saves New QID\nException"
-            ],
-            "id": "24e6f1f6-2309-4f3a-97d0-6111de757fc6",
-            "source": {
-              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
-              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
-            },
-            "target": {
-              "cell": "55fa3a47-3ad2-4e74-b505-fba64a3a259a",
-              "port": "b6d8991f-0665-41c4-91bf-d98f3631c0a2"
-            },
-            "vertices": [
-              {
-                "x": 1080,
-                "y": 620
-              },
-              {
-                "x": 1160,
-                "y": 620
-              },
-              {
-                "x": 1280,
-                "y": 570
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1239,6 +856,228 @@
               "port": "db1e423d-3a6f-4856-8003-b358937b023d"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "QID Lookup",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "QID Lookup"
+            ],
+            "id": "73a5cfec-723e-4762-a31c-42ba94532357",
+            "source": {
+              "x": 691,
+              "y": 360
+            },
+            "target": {
+              "cell": "3a4a1851-afbc-4b7b-9869-8f4cb0848f0d",
+              "port": "e6c48a0e-36e3-43b2-b012-0de6d663a433"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Saves New QID\nException",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Saves New QID\nException"
+            ],
+            "id": "24e6f1f6-2309-4f3a-97d0-6111de757fc6",
+            "source": {
+              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
+              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
+            },
+            "target": {
+              "cell": "3a4a1851-afbc-4b7b-9869-8f4cb0848f0d",
+              "port": "cc42cff1-01e2-4f3d-ba2f-35ea59bf082f"
+            },
+            "vertices": [
+              {
+                "x": 1080,
+                "y": 620
+              },
+              {
+                "x": 1160,
+                "y": 620
+              },
+              {
+                "x": 1280,
+                "y": 570
+              },
+              {
+                "x": 1260,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CID Lookup",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "CID Lookup"
+            ],
+            "id": "85d26cec-cf42-4c32-9c50-9c3e6830cea3",
+            "source": {
+              "x": 691,
+              "y": 380
+            },
+            "target": {
+              "cell": "be824ef1-eda3-4bbf-bc05-76e00dfaac5f",
+              "port": "e6c48a0e-36e3-43b2-b012-0de6d663a433"
+            },
+            "vertices": [
+              {
+                "x": 780,
+                "y": 470
+              },
+              {
+                "x": 910,
+                "y": 500
+              },
+              {
+                "x": 970,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Saves New CID \nException",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Saves New CID \nException"
+            ],
+            "id": "4120f642-a17e-46c5-9ecd-367ffe51116c",
+            "source": {
+              "cell": "f1bc9af9-e609-4ae8-b6da-ad44e510d999",
+              "port": "f2b0c9fe-0029-428c-8525-92bd68e4b7b6"
+            },
+            "target": {
+              "cell": "be824ef1-eda3-4bbf-bc05-76e00dfaac5f",
+              "port": "ccd11b97-7035-47b1-a387-1f96d6c70ceb"
+            },
+            "vertices": [
+              {
+                "x": 1050,
+                "y": 570
+              }
+            ]
           },
           {
             "position": {
@@ -1834,6 +1673,313 @@
                 "x": 90,
                 "y": 380
               }
+            ]
+          },
+          {
+            "position": {
+              "x": 930,
+              "y": 250.00000000000034
+            },
+            "size": {
+              "width": 180,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Qualys VMDR \n(QID Vulnerability Data)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "47159d44-705e-4d8e-b4f0-2eeeee663d22"
+                },
+                {
+                  "group": "right",
+                  "id": "cc42cff1-01e2-4f3d-ba2f-35ea59bf082f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccd11b97-7035-47b1-a387-1f96d6c70ceb"
+                },
+                {
+                  "group": "left",
+                  "id": "e6c48a0e-36e3-43b2-b012-0de6d663a433"
+                }
+              ]
+            },
+            "id": "3a4a1851-afbc-4b7b-9869-8f4cb0848f0d",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Store",
+              "name": "Qualys VMDR \n(QID Vulnerability Data)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 23,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CID Lookup\nResults",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "CID Lookup\nResults"
+            ],
+            "id": "8e9a1895-bbdc-4af4-bec0-d7c5b23001b1",
+            "source": {
+              "x": 1030,
+              "y": 520
+            },
+            "target": {
+              "x": 690,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": 520
+              },
+              {
+                "x": 810,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 1045,
+              "y": 460
+            },
+            "size": {
+              "width": 160,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Qualys PC \n(CID Scan Data)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "47159d44-705e-4d8e-b4f0-2eeeee663d22"
+                },
+                {
+                  "group": "right",
+                  "id": "cc42cff1-01e2-4f3d-ba2f-35ea59bf082f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccd11b97-7035-47b1-a387-1f96d6c70ceb"
+                },
+                {
+                  "group": "left",
+                  "id": "e6c48a0e-36e3-43b2-b012-0de6d663a433"
+                }
+              ]
+            },
+            "id": "be824ef1-eda3-4bbf-bc05-76e00dfaac5f",
+            "zIndex": 24,
+            "data": {
+              "type": "tm.Store",
+              "name": "Qualys PC \n(CID Scan Data)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            },
+            "children": [
+              "2953482d-7928-4436-9d0d-218897fb9412"
             ]
           }
         ]

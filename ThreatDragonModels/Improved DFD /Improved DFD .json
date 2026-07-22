@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -47.50000000000003,
-              "y": 219.99999999999972
+              "x": -37.50000000000003,
+              "y": 229.99999999999977
             },
             "size": {
               "width": 150,
@@ -137,7 +137,7 @@
           {
             "position": {
               "x": 310,
-              "y": 219.99999999999977
+              "y": 229.99999999999977
             },
             "size": {
               "width": 170,
@@ -869,7 +869,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Renewal\nReminder",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -883,7 +883,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Renewal\nReminder"
             ],
             "id": "1166d880-ac35-4381-b98c-9dfec3eef14e",
             "source": {
@@ -1016,7 +1016,7 @@
           {
             "position": {
               "x": 694,
-              "y": 219.99999999999977
+              "y": 229.99999999999977
             },
             "size": {
               "width": 170,
@@ -1657,120 +1657,6 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 680
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 22,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b94318d3-1701-4fbb-b9a7-49f6bbb713a8"
-                },
-                {
-                  "group": "right",
-                  "id": "b0c6ecfc-4555-4b1b-91c4-d1b79c83c513"
-                },
-                {
-                  "group": "bottom",
-                  "id": "d321c9a3-d85c-4891-a147-9af0a25f3bd8"
-                },
-                {
-                  "group": "left",
-                  "id": "2fef4c95-2615-413b-b550-b4e62046e4d8"
-                }
-              ]
-            },
-            "id": "6ee74e3f-b9ea-46e2-9781-273a01de96dc",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
               "x": 1530,
               "y": 540
             },
@@ -1909,7 +1795,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Begin Tracking",
+              "name": "New Exception Logged for Lifecycle Tracking",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1923,7 +1809,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Begin Tracking"
+              "New Exception Logged for Lifecycle Tracking"
             ],
             "id": "63051178-d14f-4cf1-91c5-25d59e46f73f",
             "source": {

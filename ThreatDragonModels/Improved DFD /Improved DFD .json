@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "18405b33-1568-4314-a697-6407fc3833e4",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Qualys Scan System ",
@@ -136,16 +136,16 @@
           },
           {
             "position": {
-              "x": 350,
+              "x": 360,
               "y": 229.99999999999977
             },
             "size": {
-              "width": 230,
+              "width": 170,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "Requestor Review and Approval"
+                "text": "Requestor Review \nand Approval"
               },
               "body": {
                 "stroke": "#333333",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,10 +239,9 @@
               ]
             },
             "id": "3838f4b9-eb15-4e55-aa59-bfe76128112d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
-              "name": "Requestor Review and Approval",
+              "name": "Requestor Review \nand Approval",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -299,15 +299,112 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submit Exception\n Request ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Submit Exception\n Request "
+            ],
+            "id": "c376922f-2f84-4ef6-b5a8-ef719d545d68",
+            "source": {
+              "cell": "3838f4b9-eb15-4e55-aa59-bfe76128112d",
+              "port": "dc126924-5d85-471d-abf2-883bea475b65"
+            },
+            "target": {
+              "cell": "29d5a649-e6a2-407c-b259-553821808c05",
+              "port": "2c63cb84-56e0-414d-82b4-b534f7a33611"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "25e1671d-c856-43d6-8a2d-d74df3a75e57",
+            "source": {
+              "cell": "29d5a649-e6a2-407c-b259-553821808c05",
+              "port": "a438878f-37e3-4eca-85ad-6074fcb65264"
+            },
+            "target": {
+              "cell": "ed2a7ab6-4b80-42ee-9f07-33b27776d14e",
+              "port": "1905b7b4-ab88-45a5-8ac8-955141a3ff4c"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 70,
-              "y": 60
+              "x": 1020,
+              "y": 229.99999999999977
             },
             "size": {
               "width": 112.5,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Splunk SOAR \nAutomation"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -316,6 +413,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -399,10 +497,9 @@
               ]
             },
             "id": "ed2a7ab6-4b80-42ee-9f07-33b27776d14e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Splunk SOAR \nAutomation",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -430,6 +527,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -513,7 +611,6 @@
               ]
             },
             "id": "ccf56cdc-8f72-4ede-8307-d92e862879c0",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -531,8 +628,8 @@
           },
           {
             "position": {
-              "x": 774,
-              "y": 250
+              "x": 744,
+              "y": 229.99999999999977
             },
             "size": {
               "width": 120,
@@ -540,7 +637,7 @@
             },
             "attrs": {
               "text": {
-                "text": "ServiceNow"
+                "text": "ServiceNow \nPrefill Engine"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -553,6 +650,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -636,10 +734,9 @@
               ]
             },
             "id": "29d5a649-e6a2-407c-b259-553821808c05",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
-              "name": "ServiceNow",
+              "name": "ServiceNow \nPrefill Engine",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -651,13 +748,43 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+            "id": "88d1ae99-77be-4534-8b38-2a3fd1504d78",
+            "zIndex": 14,
+            "source": {
+              "cell": "ed2a7ab6-4b80-42ee-9f07-33b27776d14e",
+              "port": "dc126924-5d85-471d-abf2-883bea475b65"
+            },
+            "target": {
+              "x": 1260,
+              "y": 260
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
             }
           }
         ]

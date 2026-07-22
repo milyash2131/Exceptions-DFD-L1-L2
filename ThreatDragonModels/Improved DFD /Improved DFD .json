@@ -464,7 +464,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "QID Lookup",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -478,7 +478,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "QID Lookup"
             ],
             "id": "134c8797-eb8f-43e4-907c-473b5b866d39",
             "source": {
@@ -516,7 +516,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "QID Lookup\nResults",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -530,7 +530,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "QID Lookup\nResults"
             ],
             "id": "f2c5fa09-897f-4cc5-898e-4711ef2cde0e",
             "source": {
@@ -568,7 +568,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "CID Lookup",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -582,7 +582,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "CID Lookup"
             ],
             "id": "c5e7ed5d-f0f4-4fcd-8291-b124e23f37b8",
             "source": {
@@ -620,7 +620,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "CID Lookup\nResults",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -634,7 +634,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "CID Lookup\nResults"
             ],
             "id": "a9cdfc73-6556-47c8-ae5e-8591c35f1533",
             "source": {
@@ -1067,6 +1067,9 @@
               "height": 70
             },
             "attrs": {
+              "text": {
+                "text": "QUALYS PCA"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1161,7 +1164,7 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "QUALYS PCA",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1181,6 +1184,9 @@
               "height": 70
             },
             "attrs": {
+              "text": {
+                "text": "QUALYS VMDR"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1275,7 +1281,7 @@
             "zIndex": 18,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "QUALYS VMDR",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1283,6 +1289,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
